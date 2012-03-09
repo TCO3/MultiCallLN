@@ -1,0 +1,2 @@
+content   MulticallLN chrome/content/
+overlay chrome://calendar/content/calendar-event-dialog-reminder.xul chrome://MulticallLN/content/Overlay.xul

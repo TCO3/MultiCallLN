@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/javascript" src="chrome://MulticallLN/content/Overlay.js"/>
+	<script type="application/javascript" src="chrome://calendar/content/preferences/alarms.js"/>
+	<hbox id="reminder-action-buttons-box">
+		<button id="add-action-anto"  label="hey" oncommand="openpopup()" />
+	</hbox>
+</overlay>
