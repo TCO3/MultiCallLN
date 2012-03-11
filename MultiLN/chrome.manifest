@@ -1,0 +1,8 @@
+content   MulticallLN chrome/content/
+overlay chrome://calendar/content/calendar-event-dialog-reminder.xul chrome://MulticallLN/content/OverlayReminderDialog.xul
+overlay chrome://calendar/content/calendar-event-dialog.xul chrome://MulticallLN/content/OverlayEventDialog.xul
+# The {classID} here must match the classID in audioAlarmMonitor.js
+component {89d98ce9-ec1c-47e4-8b24-c7e678336df0} components/audioAlarmMonitor.js
+contract @anto.com/audioAlarmMonitor;1 {89d98ce9-ec1c-47e4-8b24-c7e678336df0}
+category alarm-service-startup audioAlarmMonitor service,@anto.com/audioAlarmMonitor;1
+category alarm-service-shutdown audioAlarmMonitor service,@anto.com/audioAlarmMonitor;1
