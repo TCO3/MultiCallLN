@@ -1,0 +1,4 @@
+.reminder-icon[value="AUDIO"] {
+    list-style-image: url(chrome://MulticallLN/content/sound.png);
+    -moz-image-region: auto;
+}

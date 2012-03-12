@@ -1,0 +1,11 @@
+content   MulticallLN chrome/content/
+overlay chrome://calendar/content/calendar-event-dialog-reminder.xul chrome://MulticallLN/content/OverlayReminderDialog.xul
+overlay chrome://calendar/content/calendar-event-dialog.xul chrome://MulticallLN/content/OverlayEventDialog.xul
+component {89d98ce9-ec1c-47e4-8b24-c7e678336df0} components/audioAlarmMonitor.js
+contract @anto.com/audio-alarm-monitor;1 {89d98ce9-ec1c-47e4-8b24-c7e678336df0}
+category alarm-service-startup audio-alarm-monitor service,@anto.com/audio-alarm-monitor;1
+category alarm-service-shutdown audio-alarm-monitor service,@anto.com/audio-alarm-monitor;1
+
+style chrome://calendar/content/calendar-event-dialog.xul chrome://MulticallLN/content/Overlay.css
+style chrome://calendar/content/calendar-event-dialog-reminder.xul chrome://MulticallLN/content/Overlay.css
+style chrome://messenger/content/messenger.xul chrome://MulticallLN/content/Overlay.css

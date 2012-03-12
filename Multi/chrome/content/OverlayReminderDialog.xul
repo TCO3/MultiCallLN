@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/javascript" src="chrome://MulticallLN/content/OverlayReminderDialog.js"/>
+    <menupopup id="reminder-actions-menupopup">
+      <menuitem id="reminder-action-AUDIO"
+            class="reminder-icon menuitem-iconic"
+            value="AUDIO"
+            label="Play a custom sound"/>
+    </menupopup>
+
+    <dialog id="calendar-event-dialog-reminder">
+      <hbox id="audio-alarm-anto" insertafter="reminder-actions-menulist" hidden="true">
+        <textbox disabled="true" id="sound-to-play" value="" flex="1"/>
+        <button id="add-action-anto" label="Sound" oncommand="gAP_browseAlarmanto(event)"/>
+      </hbox>
+    </dialog>
+</overlay>
